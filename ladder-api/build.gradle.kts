@@ -1,4 +1,6 @@
-group = "fr.ladder"
+plugins {
+    id("fr.ladder.releasr") version "1.0.0"
+}
 
 tasks.compileJava {
     options.encoding = "UTF-8"

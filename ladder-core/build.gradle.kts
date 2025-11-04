@@ -1,8 +1,7 @@
 plugins {
+    id("fr.ladder.releasr") version "1.0.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
-
-group = "fr.ladder.core"
 
 tasks.compileJava {
     options.encoding = "UTF-8"
