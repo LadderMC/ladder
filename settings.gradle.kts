@@ -1,6 +1,6 @@
-rootProject.name = "Ladder"
+rootProject.name = "ladder"
 
-include("Ladder-API")
-include("Ladder-CORE")
+include("ladder-api")
+include("ladder-core")
 
-include("Sample")
+include("sample")
