@@ -1,4 +1,4 @@
-package fr.ladder.common.item;
+package fr.ladder.api.bukkit.item;
 
 import com.mojang.authlib.properties.Property;
 import org.bukkit.Material;

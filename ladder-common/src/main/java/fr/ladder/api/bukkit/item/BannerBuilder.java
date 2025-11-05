@@ -1,4 +1,4 @@
-package fr.ladder.common.item;
+package fr.ladder.api.bukkit.item;
 
 import org.bukkit.ChatColor;
 import org.bukkit.DyeColor;
