@@ -1,5 +1,6 @@
 rootProject.name = "ladder"
 
+include("ladder-common")
 include("ladder-api")
 include("ladder-core")
 include("sample")
