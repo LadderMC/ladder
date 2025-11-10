@@ -18,3 +18,11 @@ dependencies {
     implementation("fr.ladder", "polyglot", "1.0.0")
     compileOnly("fr.snowtyy", "papermc", "1.8.8")
 }
+
+tasks.shadowJar {
+    archiveClassifier.set("")
+}
+
+tasks.build {
+    dependsOn(tasks.shadowJar)
+}

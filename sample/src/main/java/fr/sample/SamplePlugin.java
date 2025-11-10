@@ -1,6 +1,6 @@
 package fr.sample;
 
-import fr.ladder.api.injector.annotation.Inject;
+import fr.ladder.wirer.annotation.Inject;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Logger;

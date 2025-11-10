@@ -6,6 +6,8 @@ plugins {
 }
 
 tasks.compileJava {
+    dependsOn(":ladder-common:shadowJar")
+
     options.encoding = "UTF-8"
     options.compilerArgs = listOf("-parameters")
 }

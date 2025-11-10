@@ -1,7 +1,6 @@
-package fr.ladder.common.impl.item;
+package fr.ladder.api.bukkit.item;
 
 
-import fr.ladder.api.bukkit.item.BookBuilder;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;

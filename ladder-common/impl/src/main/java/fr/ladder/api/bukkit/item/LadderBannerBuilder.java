@@ -1,6 +1,5 @@
-package fr.ladder.common.impl.item;
+package fr.ladder.api.bukkit.item;
 
-import fr.ladder.api.bukkit.item.BannerBuilder;
 import org.bukkit.ChatColor;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;

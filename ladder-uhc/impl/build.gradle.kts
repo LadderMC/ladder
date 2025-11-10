@@ -7,10 +7,14 @@ plugins {
 
 group = "fr.ladder.ladder-uhc"
 
-dependencies {
-    implementation(project(":ladder-common:impl"))
+tasks.compileJava {
+    dependsOn(":ladder-uhc:shadowJar")
+    dependsOn(":ladder-common:impl:shadowJar")
+}
 
+dependencies {
     implementation(project(":ladder-uhc"))
+    implementation(project(":ladder-common:impl"))
     compileOnly("fr.snowtyy", "papermc", "1.8.8")
 }
 

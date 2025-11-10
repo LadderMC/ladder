@@ -6,11 +6,12 @@ plugins {
 group = "fr.sample"
 
 tasks.compileJava {
+    dependsOn(":ladder-uhc:shadowJar")
     options.encoding = "UTF-8"
 }
 
 dependencies {
-    compileOnly(project(":ladder-uhc"))
+    implementation(project(":ladder-uhc"))
     compileOnly("fr.snowtyy", "papermc", "1.8.8")
 }
 

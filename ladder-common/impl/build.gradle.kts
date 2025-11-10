@@ -7,7 +7,20 @@ plugins {
 
 group = "fr.ladder.ladder-common"
 
+
+tasks.compileJava {
+    dependsOn(":ladder-common:shadowJar")
+}
+
 dependencies {
     implementation(project(":ladder-common"))
     compileOnly("fr.snowtyy", "papermc", "1.8.8")
+}
+
+tasks.shadowJar {
+    archiveClassifier.set("")
+}
+
+tasks.build {
+    dependsOn(tasks.shadowJar)
 }
