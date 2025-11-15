@@ -1,7 +1,11 @@
 rootProject.name = "ladder"
 
-include("ladder-api")
-include("ladder-core")
+include("ladder-common")
+include("ladder-common:impl")
+
+include("ladder-uhc")
+include("ladder-uhc:impl")
+
 include("sample")
 
 pluginManagement {
