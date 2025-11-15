@@ -1,0 +1,13 @@
+{
+  "common": {
+    "items": {
+      "back": "§c» §fRetour §c«",
+      "previous": "§a« §fPrécédent",
+      "next": "§fSuivant §a»",
+      "banner": {
+        "minus": "Retirer §f{s}",
+        "plus": "Ajouter §f{s}"
+      }
+    }
+  }
+}
