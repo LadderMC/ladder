@@ -1,4 +1,4 @@
 name: Ladder-UHC
-version: @version@
+version: ${version}
 author: Snowtyy
 main: fr.ladder.core.LadderEngine
