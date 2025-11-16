@@ -19,9 +19,24 @@ dependencies {
 }
 
 tasks.shadowJar {
+    archiveBaseName.set("ladder-uhc")
+    archiveVersion.set("")
     archiveClassifier.set("")
 }
 
 tasks.build {
     dependsOn(tasks.shadowJar)
+}
+
+tasks.jar {
+    archiveBaseName.set("ladder-uhc")
+    archiveVersion.set("")
+    archiveClassifier.set("")
+}
+
+tasks.processResources {
+    filesMatching("**/*.yml") {
+        expand("version" to version)
+    }
+    outputs.upToDateWhen { false }
 }

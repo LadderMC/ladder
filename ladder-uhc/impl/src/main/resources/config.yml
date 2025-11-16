@@ -1,0 +1,27 @@
+#
+#       Configuration File • Plugin developed by Snowtyy
+#
+# Languages : 'EN' : English, 'FR' : French, 'ES' : Spain
+lang: 'FR'
+# Lobby : Location where the player is teleported on join the server
+lobby:
+  schematic:
+    name: platform
+    location:
+      x: 0.5
+      y: 120
+      z: 0.5
+  spawn:
+    x: 0.5
+    y: 121.5
+    z: 0.5
+    yaw: 0
+    pitch: 0
+# Spawn : Location where the player is teleported after death
+spawn:
+  x: 0.5
+  y: 181.5
+  z: 0.5
+  yaw: 0
+  pitch: 0
+  platform: True
